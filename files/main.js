@@ -44,8 +44,7 @@ function createTimeline() {
  * @return {Object[]}  A list of tag data.
  */
 function parsePageContent() {
-  const tagRegex = /\[\[include component:timeline-node\s([\w\W]+?)]]/gm;
-
+  const tagRegex = /\[\[component:timeline-node\s([\w\W]+?)]]/gm;
   let tags = [];
   let tagContent = tagRegex.exec(pageContent);
   while(tagContent !== null) {
