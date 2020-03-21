@@ -113,6 +113,7 @@ function splitTagParameters(tag) {
  * @param {string} text  The text to format.
  */
 function parseLinks(text) {
+  console.log(text);
   let regex = /\[(https?:\/\/.*?\..*?\..*?\/.*?)\|(.*?)\]/g;
   function replacer(match, link, description) {
     return "<a target=\"_blank\" href=\"" + link + "\">" + description + "</a>";
