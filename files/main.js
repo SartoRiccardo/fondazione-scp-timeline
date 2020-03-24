@@ -106,7 +106,7 @@ function splitTagParameters(tag) {
 /**
  * Translates wikidot links to HTML.
  *
- * Only works with single-parenthesis hyperkinks,
+ * Only works with single-parenthesis hyperlinks,
  * eg: [http://fondazionescp.wikidot.com|Pagina principale]
  * Won't work on links like: [[[SCP-033-IT|Link all'articolo di SCP-033-IT]]]
  *
